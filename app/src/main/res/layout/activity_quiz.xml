@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E6EAED"
     android:orientation="vertical"
     tools:context=".QuizActivity">
     <!-- Question 1-->
 
     <TextView
         style="@style/questionStyle"
-        android:text="1. Who is honored as Father of Modern Chemistry?"
-        />
+        android:text="What’s the shortcut for the “copy” function on most computers?" />
 
     <RadioGroup
         android:id="@+id/num_one_radio_group"
@@ -21,88 +21,89 @@
             android:id="@+id/Antoine"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Antoine Lavoisier"/>
+            android:text="Ctrl C" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Dmitri Mendeleev"/>
+            android:text="Ctrl P" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Dmitri Mendeleev"/>
+            android:text="Ctrl V" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Dmitri Mendeleev"/>
+            android:text="Ctrl X" />
     </RadioGroup>
 
     <!-- Question 2-->
 
     <TextView
         style="@style/questionStyle"
-        android:text="2. Who invented periodic table?"/>
+        android:text="What is often seen as the smallest unit of memory?" />
 
-    <RadioGroup
-        style="@style/radio_group">
-
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Dmitri Mendeleev"/>
+    <RadioGroup style="@style/radio_group">
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nitrogen (78.08%)"/>
+            android:text="KB" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nitrogen (78.08%)"/>
+            android:text="GB" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nitrogen (78.08%)"/>
+            android:text="MB" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TB" />
     </RadioGroup>
 
 
     <!-- Question 3 -->
     <TextView
         style="@style/questionStyle"
-        android:text="3. Which is the most abundant gas in the earth's atmosphere?"
-        />
+        android:text="What was Twitter’s original name?" />
+
     <CheckBox
         android:id="@+id/nit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nitrogen (78.08%)"
-        />
+        android:text="twttr" />
+
     <CheckBox
         android:id="@+id/Ni"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nitrogen "/>
+        android:text="twtr" />
+
     <CheckBox
         android:id="@+id/N"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nitrogen"/>
+        android:text="twwtr" />
+
     <CheckBox
         android:id="@+id/Nitr"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nitrogen)"/>
-
-
+        android:text="twwttr" />
 
 
     <Button
         android:id="@+id/submit_button"
         android:layout_width="wrap_content"
         android:layout_height="37dp"
-        android:text="Submit" />
+        android:backgroundTint="#5A69B8"
+        android:text="Submit"
+        android:textColor="#FFFFFF" />
 </LinearLayout>

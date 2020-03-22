@@ -8,12 +8,12 @@
         "source": "C:\\Users\\Lenovo\\Desktop\\Lab Exercises\\QuizApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Lenovo\\Desktop\\Lab Exercises\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Lenovo\\Desktop\\Lab Exercises\\QuizApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\Lenovo\\Desktop\\Lab Exercises\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\Lenovo\\Desktop\\Lab Exercises\\QuizApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Desktop\\Lab Exercises\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Lenovo\\Desktop\\Lab Exercises\\QuizApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Lenovo\\Desktop\\Lab Exercises\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
